@@ -1,0 +1,36 @@
+p {
+    font-size: 20px;
+}
+h1 {
+    font-family: "brush script mt";
+    color: rgb(37, 28, 59);
+    text-align: center;
+}
+
+
+.heading {
+    color: purple;
+}
+
+.second {
+    color: red;
+}
+
+.navbar {
+    background-color: purple;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a:hover {
+    color: blueviolet;
+}
+
+img{
+    width: 50%;
+}
