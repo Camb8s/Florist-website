@@ -1,36 +1,46 @@
-p {
-    font-size: 20px;
-}
-h1 {
+body {
+    background-color: rgb(255, 255, 243);
+    background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v986-bg-02-kqhe3wit.jpg?w=1200&h=1200&dpr=1&fit=clip&crop=default&fm=jpg&q=75&vib=3&con=3&usm=15&cs=srgb&bg=F4F4F3&ixlib=js-2.2.1&s=a18675d7f6be224df8ff585d65d5d8dc")
+     }
+    h1 {
     font-family: "brush script mt";
-    color: rgb(37, 28, 59);
+    font-size: 50px;
+    color: rgb(141, 195, 208);
     text-align: center;
-}
-
-
-.heading {
-    color: purple;
-}
-
-.second {
-    color: red;
-}
-
-.navbar {
-    background-color: purple;
+    }
+    
+    .navbar {
+    background-color: rgb(141, 195, 208);
+    background-size: 70px;
     display: flex;
     justify-content: space-evenly;
-}
-
-.navbar a{
+    }
+    
+    .navbar a{
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.navbar a:hover {
+    margin-right: 150px;
+    letter-spacing: 3px;
+    margin-left: 100px;
+    font-family: Garamond;
+    }
+    
+    .navbar a:hover {
     color: blueviolet;
-}
-
-img{
+    }
+    
+    img{
     width: 50%;
-}
+    }
+    p {
+    color: ;
+    font-family: garamond;
+    font-size: 20px;
+    border: 2px solid rgb(112, 158, 189);
+    border-radius: 8px;
+    padding: 5px;
+    margin-right: 150px;
+    margin-left: 100px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    text-align: center;
+            }
