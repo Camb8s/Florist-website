@@ -9,13 +9,14 @@ body {
     }
 h2 {
   color: rgb(37, 28, 59);
+  text-align: center;
 }
     
     .navbar {
     background-color: #BBB6BF;
     background-size: 70px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     }
     
     .navbar a{
@@ -31,28 +32,71 @@ h2 {
     color: blueviolet;
     }
     .footer {
-        background-color: rgb(141, 195, 208);
+        background-color: #BBB6BF;
         background-size: 70px;
         display: flex;
         justify-content: space-evenly;
     }
+.footer a {
+  text-decoration:none;
+  color: rgb(37, 28, 59);
+  font-family: Garamond;
+  letter-spacing: 3px;
+}
+  
     
-    img{
-    width: 30%;
-    }
     p {
       
     font-family: garamond;
     font-size: 20px;
-    border: 2px solid rgb(112, 158, 189);
+    border: 2px solid #BBB6BF;
     border-radius: 8px;
     padding: 5px;
-    margin-right: 150px;
-    margin-left: 100px;
     letter-spacing: 3px;
     font-weight: bold;
     text-align: center;
             }
+.parent {
+  background-color: #BBB6BF;
+}
+.row-parent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
 .first {
-  width: 20%;
+  margin: .5rem;
+  padding: .5rem;
+}
+.second {
+  margin: .5rem;
+  padding: .5rem;
+}
+.third {
+  margin: .5rem;
+  padding: .5rem;
+}
+
+.parents {
+  background-color: #BBB6BF;
+}
+.row-parents {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.gerbera {
+  margin-right: 30px;
+  padding:.5rem;
+  justify-content: center;
+}
+.pink {
+  margin-right:180px;
+  padding: .5rem;
+}
+.tiger {
+  margin-right: 110px;
+  padding: .5rem;
 }
