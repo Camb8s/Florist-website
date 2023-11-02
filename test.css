@@ -1,102 +1,156 @@
 body {
-    background-color: #294D4A;
-     }
-    h1 {
-    font-family: "brush script mt";
-    font-size: 50px;
-    color: rgb(37, 28, 59);
-    text-align: center;
-    }
-h2 {
-  color: rgb(37, 28, 59);
+  background-color: #294D4A;
+   }
+  h1 {
+  font-family: "brush script mt";
+  font-size: 50px;
+  color: white;
   text-align: center;
-}
-    
-    .navbar {
-    background-color: #BBB6BF;
-    background-size: 70px;
-    display: flex;
-    justify-content: center;
-    }
-    
-    .navbar a{
-    text-decoration: none;
-    color: rgb(37, 28, 59);
-    margin-right: 150px;
-    letter-spacing: 3px;
-    margin-left: 100px;
-    font-family: Garamond;
-    }
-    
-    .navbar a:hover {
-    color: blueviolet;
-    }
-    .footer {
-        background-color: #BBB6BF;
-        background-size: 70px;
-        display: flex;
-        justify-content: space-evenly;
-    }
-.footer a {
-  text-decoration:none;
-  color: rgb(37, 28, 59);
-  font-family: Garamond;
-  letter-spacing: 3px;
+  }
+h2 {
+color: white;
+text-align: center;
 }
   
-    
-    p {
-      
-    font-family: garamond;
-    font-size: 20px;
-    border: 2px solid #BBB6BF;
-    border-radius: 8px;
-    padding: 5px;
-    letter-spacing: 3px;
-    font-weight: bold;
-    text-align: center;
-            }
-.parent {
+  .navbar {
   background-color: #BBB6BF;
+  background-size: 70px;
+  display: flex;
+  justify-content: space-evenly;
+  }
+  
+  .navbar a{
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(37, 28, 59);
+  margin-right: 150px;
+  letter-spacing: 3px;
+  margin-left: 100px;
+  font-family: Garamond;
+  }
+  
+  .navbar a:hover {
+  color: blueviolet;
+  }
+  .footer {
+      background-color: #BBB6BF;
+      background-size: 70px;
+      display: flex;
+      justify-content: space-evenly;
+  }
+.footer a {
+text-decoration:none;
+font-weight: bold;
+color: rgb(37, 28, 59);
+font-family: Garamond;
+letter-spacing: 3px;
+}
+
+  
+  p {
+    
+  font-family: garamond;
+  font-size: 20px;
+  border: 2px solid #BBB6BF;
+  border-radius: 8px;
+  padding: 5px;
+  letter-spacing: 3px;
+  font-weight: bold;
+  text-align: center;
+          }
+.parent {
+background-color: #BBB6BF;
 }
 .row-parent {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
 }
 
 .first {
-  margin: .5rem;
-  padding: .5rem;
+margin: .5rem;
+padding: .5rem;
 }
 .second {
-  margin: .5rem;
-  padding: .5rem;
+margin: .5rem;
+padding: .5rem;
 }
 .third {
-  margin: .5rem;
-  padding: .5rem;
+margin: .5rem;
+padding: .5rem;
 }
 
 .parents {
-  background-color: #BBB6BF;
+background-color: #BBB6BF;
 }
 .row-parents {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
 }
 
 .gerbera {
-  margin-right: 30px;
-  padding:.5rem;
-  justify-content: center;
+margin-right: 30px;
+padding:.5rem;
+justify-content: center;
 }
 .pink {
-  margin-right:180px;
-  padding: .5rem;
+margin-right:180px;
+padding: .5rem;
 }
 .tiger {
-  margin-right: 110px;
-  padding: .5rem;
+margin-right: 110px;
+padding: .5rem;
+}
+
+.plant {
+background-color: #BBB6BF;
+}
+.plant-row {
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+}
+.firsts {
+margin: .5rem;
+padding: .5rem;
+}
+.seconds {
+margin: .5rem;
+padding: .5rem;
+}
+.thirds {
+margin: .5rem;
+padding: .5rem;
+}
+.plants {
+background-color: #BBB6BF;
+}
+.plants-rows {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+.rhodo {
+margin-right: 30px;
+padding:.5rem;
+display: flex;
+justify-content: center;
+}
+.lily {
+margin-right:10px;
+padding: .5rem;
+}
+.cactus {
+margin-left: 20px;
+padding: .5rem;
+}
+.paragraph {
+  color: white;
+}
+.paragraph-2 {
+  color: white;
+}
+.paragraph-3 {
+  color: white;
 }
